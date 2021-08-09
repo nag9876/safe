@@ -1,0 +1,90 @@
+@media (max-width: 880px) {
+    .subscribe-area {
+        text-align: center;
+    }
+    #header {
+        top: 0;
+        background: transparent;
+        box-shadow: none;
+    }
+    #header .logo {
+        width: 160px;
+        height: 160px;
+        top: 0;
+        line-height: 143px;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+    #header .logo img {
+        width: 127px;
+    }
+    .mobile-nav-toggle {
+        display: block;
+        position: absolute;
+        right: 0;
+        z-index: 99;
+        background: linear-gradient(to top, black, #ec3236);
+        color: #fff;
+        padding: 8px 7px;
+        top: 67px;
+    }
+    .appointment-btn {
+        padding: 6px 18px;
+        width: 120px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        top: 180px;
+    }
+    .navbar-mobile>ul>li {
+        padding: 0;
+        width: 100%;
+    }
+    .about {
+        padding-top: 60px;
+        text-align: center;
+    }
+    .icon-box {
+        display: block;
+    }
+    .img-box {
+        width: 120px;
+        height: 120px;
+        display: inline-block;
+        line-height: 98px;
+    }
+    .icon-box img {
+        width: 58px;
+    }
+    #header.header-scrolled {
+        top: 0;
+        position: absolute;
+    }
+    .blog-bar {
+        margin: 32px 0 30px;
+    }
+    .Departments {
+        margin: 32px 0 80px;
+    }
+    .testimonial-section::before {
+        width: 100%;
+    }
+    .testimonial-section {
+        padding: 42px 0;
+    }
+    .testimonials .testimonial-item {
+        padding: 11px;
+        margin: 0;
+        text-align: center;
+    }
+    .faq_row .col-md-6:nth-child(4) {
+        border-bottom: 1px dashed #ccc;
+    }
+    .subscribe2-wrapper .subscribe-form button {
+        position: relative;
+        margin-top: 16px;
+        top: 0px;
+        right: 0px;
+    }
+}
